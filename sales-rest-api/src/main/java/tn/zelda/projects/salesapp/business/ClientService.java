@@ -8,5 +8,5 @@ import java.util.List;
  * Created by zelda on 27/01/17.
  */
 public interface ClientService {
-    List<Client> getEmployees();
+    List<Client> getClients();
 }

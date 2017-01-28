@@ -5,24 +5,24 @@ package tn.zelda.projects.salesapp.model;
  */
 public class Client {
 
-    String firstName;
+    String name;
     String address;
 
 
     public Client(String firstName, String address) {
-        this.firstName = firstName;
+        this.name = firstName;
         this.address = address;
     }
 
     public Client() {
     }
 
-    public String getFirstName() {
-        return firstName;
+    public String getName() {
+        return name;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstName = firstName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getAddress() {

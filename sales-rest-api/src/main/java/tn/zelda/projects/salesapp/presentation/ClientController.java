@@ -1,7 +1,9 @@
 package tn.zelda.projects.salesapp.presentation;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
+import tn.zelda.projects.salesapp.business.ClientService;
 import tn.zelda.projects.salesapp.model.Client;
 
 import java.util.List;
@@ -12,10 +14,12 @@ import java.util.List;
 @RestController
 public class ClientController {
 
-    @RequestMapping("/employees")
-    public List<Client> getEmployees(){
+    @Autowired
+    ClientService clientService;
 
-        return  null;
+    @RequestMapping("/clients")
+    public List<Client> getEmployees(){
+        return clientService.getClients();
     }
 
 }
