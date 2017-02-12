@@ -1,6 +1,11 @@
 package tn.zelda.projects.salesapp.controller;
 
+import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import tn.zelda.projects.salesapp.business.ProductBusiness;
+import tn.zelda.projects.salesapp.business.ProductService;
+import tn.zelda.projects.salesapp.model.Product;
 
 import java.util.List;
 
@@ -11,7 +16,10 @@ import java.util.List;
 @Controller
 public class ProductController {
 
-    public List<ProductController> getProducts(){
-        return null;
+    @Autowired
+    ProductService productService;
+    @RequestMapping("/employee")
+    public List<Product> getProducts(){
+        return productService.getProducts();
     }
 }
