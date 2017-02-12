@@ -1,3 +1,13 @@
 # salesApp
-salesApp is a showcase java application composed from several microservices modules 
-It is implemented using SpringBoot, Spring REST,Docker
+salesApp is a showcase microservice java application implemented using:
+SpringBoot
+Spring Cloud
+Spring REST
+Docker 
+
+This showcase is composed from several modules
+client module
+product module
+order module
+
+
