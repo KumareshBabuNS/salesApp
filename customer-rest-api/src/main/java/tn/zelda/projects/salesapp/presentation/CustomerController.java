@@ -3,8 +3,8 @@ package tn.zelda.projects.salesapp.presentation;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
-import tn.zelda.projects.salesapp.business.ClientService;
-import tn.zelda.projects.salesapp.model.Client;
+import tn.zelda.projects.salesapp.business.CustomerService;
+import tn.zelda.projects.salesapp.model.Customer;
 
 import java.util.List;
 
@@ -12,14 +12,14 @@ import java.util.List;
  * Created by zelda on 27/01/17.
  */
 @RestController
-public class ClientController {
+public class CustomerController {
 
     @Autowired
-    ClientService clientService;
+    CustomerService clientService;
 
-    @RequestMapping("/clients")
-    public List<Client> getEmployees(){
-        return clientService.getClients();
+    @RequestMapping("/customers")
+    public List<Customer> getEmployees(){
+        return clientService.getCustomers();
     }
 
 }

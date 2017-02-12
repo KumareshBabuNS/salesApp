@@ -3,18 +3,18 @@ package tn.zelda.projects.salesapp.model;
 /**
  * Created by zelda on 27/01/17.
  */
-public class Client {
+public class Customer {
 
     String name;
     String address;
 
 
-    public Client(String firstName, String address) {
+    public Customer(String firstName, String address) {
         this.name = firstName;
         this.address = address;
     }
 
-    public Client() {
+    public Customer() {
     }
 
     public String getName() {

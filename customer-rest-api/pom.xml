@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <groupId>tn.zelda.projects.salesapp</groupId>
-    <artifactId>client-rest-api</artifactId>
+    <artifactId>customer-rest-api</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>jar</packaging>
 

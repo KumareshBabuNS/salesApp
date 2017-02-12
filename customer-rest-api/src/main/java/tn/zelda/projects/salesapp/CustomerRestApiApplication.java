@@ -7,9 +7,9 @@ import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
 @SpringBootApplication
 @EnableEurekaClient
 
-public class ProductsRestApiApplication {
+public class CustomerRestApiApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(ProductsRestApiApplication.class, args);
+        SpringApplication.run(CustomerRestApiApplication.class, args);
     }
 }
