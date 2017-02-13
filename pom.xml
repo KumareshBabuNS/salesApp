@@ -15,10 +15,12 @@
 	<version>0.0.1-SNAPSHOT</version>
 	<packaging>pom</packaging>
 	<modules>
-		<module>customer-rest-api</module>
 		<module>eureka-salesapp</module>
-	</modules>
+		<module>customer-rest-api</module>
+        <module>product-rest-api</module>
+		<module>order-rest-api</module>
 
+	</modules>
 	<dependencyManagement>
 		<dependencies>
 			<dependency>

@@ -24,9 +24,8 @@
 
     <dependencies>
         <dependency>
-            <!-- Eureka service registration -->
             <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter-eureka-server</artifactId>
+            <artifactId>spring-cloud-starter-eureka</artifactId>
         </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
