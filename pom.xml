@@ -17,6 +17,7 @@
 	<modules>
 		<module>eureka-salesapp</module>
         <module>ribbon-and-eureka</module>
+        <module>zuul-server</module>
 		<module>customer-rest-api</module>
         <module>product-rest-api</module>
 		<module>order-rest-api</module>
