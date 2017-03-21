@@ -1,7 +1,8 @@
 # salesApp
-salesApp is a showcase microservice java application implemented using:
+Scalable Cloud salesApp is a showcase microservices java application implemented using:
 SpringBoot
 Spring Cloud
+Ribbon
 Spring REST
 Docker 
 
@@ -10,4 +11,7 @@ client module
 product module
 order module
 
-
+##Ribbon load balancers 
+*Service Discovery Integration 
+*Fault Tolerance
+*Configurable load-balancing rules 
