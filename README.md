@@ -10,8 +10,3 @@ This showcase is composed from several modules
 * client module
 * product module
 * order module
-
-## Ribbon load balancers 
-* Service Discovery Integration 
-* Fault Tolerance
-* Configurable load-balancing rules 
